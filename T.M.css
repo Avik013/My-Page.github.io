@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* Body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+/* --- Header --- */
+
+/* Header */
+header {
+  background: url(./ImgMyPage/photo-1505238680356-667803448bb6.jpeg) no-repeat center top / cover ;
+  height: 850px;
+
+}
+
+/* Container */
+.container {
+  width: 1024px;
+  margin: 0 auto;
+
+}
+
+/* Heading */
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+/* Avatar */
+.avatar {
+  width: 200px;
+  height: 200px;
+  margin-top: 25px;
+  border-radius: 13px;
+  border: 3px solid #fff;
+  background-image: url(./ImgMyPage/8b1da9431bf1f70ce8efc32be8976c00.png);
+  background-size: 100%;
+  transition: all 0.8s;
+  
+}
+.avatar:hover{
+  background-image: url(./ImgMyPage/36641802_1055313761286529_2594510999583195136_o.jpg);
+
+}
+
+/* Menu */
+.menu {
+  display: block;
+  display: flex;
+  margin-top: 25px;
+  
+}
+
+.menu li {
+  padding: 5px;
+  display: block;
+  border-radius: 13px;
+  border: 2px solid #fff;
+  margin-right: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+  
+}
+.menu li:hover {
+  background: #fff;
+  
+}
+.menu li:hover .item{
+  
+  color: black;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  
+}
+
+/* Titles */
+.title__first {
+  color: #fff;
+  font-size: 40px;
+  border-radius: 13px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 45px;
+  padding: 20px 10px;
+
+}
+
+/* H1 */
+h1 {
+  color: #fff;
+  font-size: 70px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  transition: all 0.8s;
+  position: relative;
+  height: 100px; width: 100%;
+  cursor: pointer;
+  bottom: 0px;
+
+}
+.h1:hover .button{
+  margin-top: 30px;
+  opacity: 1;
+  
+}
+
+/* Button */
+.button {
+  border-radius: 13px;
+  border: 3px solid #fff;
+  display: block;
+  width: 150px;
+  padding: 20px 10px;
+  height: 67px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  opacity: 0;
+  transition: all 0.8s;
+  cursor: pointer;
+  position: relative;
+
+}
+
+.button a {
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.button a::before{
+  content: "Resume";
+  position: absolute;
+  top:  20px;
+  transform: translateX(-50%);
+}
+
+/* --- Section --- */
