@@ -1,2 +1,2 @@
-# Avik013.My-Page.github.io
+# My-Page.github.io
 My Personal Web site
